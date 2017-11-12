@@ -140,9 +140,9 @@ header.major h2+p {
     -ms-align-items: stretch;
     align-items: stretch;
     -ms-flex-pack: end;
-    min-height: -webkit-calc(100vh - 4.25em);
-    min-height: -moz-calc(100vh - 4.25em);
-    min-height: calc(100vh - 4.25em);
+    min-height: -webkit-calc(100vh - 40.25em);
+    min-height: -moz-calc(100vh - 40.25em);
+    min-height: calc(100vh - 40.25em);
     position: relative;
 }
 
@@ -186,11 +186,6 @@ header.major h2+p {
 	text-align: left;
 }
 
-.about.alt .content .postnav {
-	right: 2em;
-	left: initial;
-}
-
 .about.style1,
 .about.style1 h2,
 .about.style1 p {
@@ -212,41 +207,18 @@ header.major h2+p {
     -ms-order: 2;
     order: 2;
     width: 50%;
-    display: block;
     margin: 0;
-    position: relative;
-    overflow: hidden;
     background-color: #3498db;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .about .image img {
-    position: absolute;
     top: 0;
     right: 0;
     height: 100%;
     width: 100%;
-    width: auto;
-    display: block;
+    display: inline-block;
+    overflow: hidden;
 }
-
-
-/* .main-block {
-    float: left;
-    width: 60%;
-    padding: 15px;
-    box-sizing: border-box;
-}
-
-.side-block {
-    float: right;
-    width: 40%;
-    padding: 15px;
-    padding-left: 40px;
-    box-sizing: border-box;
-} */
 
 
 /* Icons */
